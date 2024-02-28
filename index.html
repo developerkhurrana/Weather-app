@@ -46,7 +46,7 @@
         const res = await fetch(apiURL + city + `&appid=${apiKey}`);
         var data = await res.json();
 
-        
+        console.log(data);
 
         document.querySelector(".card__weatherCity").innerHTML = data.name;
         document.querySelector(".card__weatherTemp").innerHTML =
