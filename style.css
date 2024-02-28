@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  background: #8c1d18;
+  border: 1px solid red;
+  border-radius: 16px;
+  padding: 40px 35px;
+  text-align: center;
+  margin-top: 100px;
+  color: white;
+}
+
+.card__search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card__search input {
+  border: 1px solid darkgray;
+  outline: 0;
+  background: #111;
+  color: #ebfffc;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 8px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+}
+
+.card__search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 8px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.card__search button img {
+  width: 16px;
+}
+
+.card__weatherIcon {
+  width: 170px;
+  margin-top: 30px;
+}
+
+.card__weatherTemp {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.card__weatherCity {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.card__weatherDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.card__weatherDetailsCol {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.card__weatherDetailsCol img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.card__weatherHumidity, .card__weatherWind {
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.card__weather{
+  display: none;
+}
